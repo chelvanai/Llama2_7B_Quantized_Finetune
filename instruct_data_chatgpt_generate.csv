@@ -1,0 +1,61 @@
+Instruction,Context,Response,Category
+Use the Input and generate the suitable category name,"Lions, Tigers, Cheetahs, Leopards",Big Cats,category_generation
+Use the Input and generate the suitable category name,"Piano, Guitar, Violin, Trumpet",Musical Instruments,category_generation
+Use the Input and generate the suitable category name,"Apple, Banana, Cherry, Orange",Fruits,category_generation
+Use the Input and generate the suitable category name,"Toyota, Ford, BMW, Tesla",Car Brands,category_generation
+Use the Input and generate the suitable category name,"Python, Java, C++, Ruby",Programming Languages,category_generation
+Use the Input and generate the suitable category name,"Drama, Comedy, Horror, Romance",Movie Genres,category_generation
+Use the Input and generate the suitable category name,"USA, Canada, Mexico, Brazil",North and South American Countries,category_generation
+Use the Input and generate the suitable category name,"Football, Hockey, Cricket, Tennis",Sports,category_generation
+Use the Input and generate the suitable category name,"Mars, Earth, Venus, Jupiter",Planets,category_generation
+Use the Input and generate the suitable category name,"Dog, Cat, Parrot, Hamster",Common Pets,category_generation
+Use the Input and generate the suitable keywords,The Eiffel Tower is a famous landmark in Paris.,"Eiffel Tower, famous, landmark, Paris",keywords_extraction
+Use the Input and generate the suitable keywords,Shakespeare wrote the tragedy Romeo and Juliet.,"Shakespeare, tragedy, Romeo and Juliet",keywords_extraction
+Use the Input and generate the suitable keywords,The Sahara is the largest desert in Africa.,"Sahara, largest desert, Africa",keywords_extraction
+Use the Input and generate the suitable keywords,Amazon is a leading e-commerce platform worldwide.,"Amazon, leading, e-commerce, worldwide",keywords_extraction
+Use the Input and generate the suitable keywords,Elephants are known for their long trunks.,"Elephants, long, trunks",keywords_extraction
+Use the Input and generate the suitable keywords,The Pacific is the largest ocean on Earth.,"Pacific, largest ocean, Earth",keywords_extraction
+Use the Input and generate the suitable keywords,Chocolate is made from cocoa beans.,"Chocolate, made, cocoa beans",keywords_extraction
+Use the Input and generate the suitable keywords,The Pyramids of Giza are in Egypt.,"Pyramids of Giza, Egypt",keywords_extraction
+Use the Input and generate the suitable keywords,The Beatles were a famous British band.,"Beatles, famous, British band",keywords_extraction
+Use the Input and generate the suitable keywords,The Great Wall of China is a historical monument.,"Great Wall of China, historical, monument",keywords_extraction
+Use the Input and group by similarity,"5, Yellow, 10, Red, Chair, 15, 20, Blue, Table, Green, Lamp","[Red, Yellow, Blue, Green], [5, 10, 15, 20], [Chair, Table, Lamp]",group_by_similarity
+Use the Input and group by similarity,"Tiger, Car, Hawk, Sparrow, Zebra, Pigeon, Elephant, Train","[Elephant, Tiger, Zebra], [Sparrow, Pigeon, Hawk], [Car, Train]",group_by_similarity
+Use the Input and group by similarity,"Addition, Circle, Square, Pizza, Triangle, Multiplication, Subtraction, Burger","[Square, Triangle, Circle], [Addition, Subtraction, Multiplication], [Pizza, Burger]",group_by_similarity
+Use the Input and group by similarity,"Moon, River, Laptop, Lake, Sun, Stars, Ocean, Computer","[Sun, Moon, Stars], [River, Lake, Ocean], [Laptop, Computer]",group_by_similarity
+Use the Input and group by similarity,"Apple, Orange, Intel, Sky, Grape, Microsoft, Clouds","[Apple, Microsoft, Intel], [Orange, Grape], [Sky, Clouds]",group_by_similarity
+Use the Input and group by similarity,"Silver, Cat, Gold, Bird, Bronze, Dog, Airplane, Chicken","[Gold, Silver, Bronze], [Cat, Dog, Bird, Chicken], [Airplane]",group_by_similarity
+Use the Input and group by similarity,"Football, Car, Bus, Pencil, Basketball, Bicycle, Tennis, Pen","[Football, Basketball, Tennis], [Car, Bus, Bicycle], [Pencil, Pen]",group_by_similarity
+Use the Input and group by similarity,"Water, Laptop, Tablet, Sandwich, Desktop, Soda, Juice, Coffee","[Laptop, Desktop, Tablet], [Juice, Water, Soda, Coffee], [Sandwich]",group_by_similarity
+Use the Input and group by similarity,"Table, Pencil, Book, Chair, Eraser, Magazine, Desk, Pen, Journal","[Pencil, Pen, Eraser], [Chair, Table, Desk], [Book, Magazine, Journal]",group_by_similarity
+Use the Input and group by similarity,"Cloud, Mountain, Thunder, Rain, Hat, Hill, Valley, Cap","[Mountain, Hill, Valley], [Cloud, Rain, Thunder], [Hat, Cap]",group_by_similarity
+Use the Input and generate the suitable category name,"Cricket, Baseball, Volleyball, Rugby",Team Sports,category_generation
+Use the Input and generate the suitable category name,"Whale, Dolphin, Shark, Tuna",Marine Animals,category_generation
+Use the Input and generate the suitable category name,"Rose, Lavender, Jasmine, Marigold",Fragrant Flowers,category_generation
+Use the Input and generate the suitable category name,"Thriller, Mystery, Crime, Detective",Mystery Genres,category_generation
+Use the Input and generate the suitable category name,"Mercury, Venus, Earth, Mars",Inner Planets,category_generation
+Use the Input and generate the suitable category name,"Batman, Superman, Iron Man, Wonder Woman",Superheroes,category_generation
+Use the Input and generate the suitable category name,"Mercedes, Ferrari, Lamborghini, Porsche",Luxury Car Brands,category_generation
+Use the Input and generate the suitable category name,"Tiger, Panther, Jaguar, Leopard",Big Wild Cats,category_generation
+Use the Input and generate the suitable category name,"Android, iOS, Windows, Linux",Operating Systems,category_generation
+Use the Input and generate the suitable category name,"Pop, Rock, Jazz, Classical",Music Genres,category_generation
+Use the Input and generate the suitable keywords,Venice is known for its canals and gondolas.,"Venice, canals, gondolas",keywords_extraction
+Use the Input and generate the suitable keywords,The Nile is the longest river in Africa.,"Nile, longest river, Africa",keywords_extraction
+Use the Input and generate the suitable keywords,Tokyo is the capital of Japan.,"Tokyo, capital, Japan",keywords_extraction
+Use the Input and generate the suitable keywords,Beethoven was a famous classical composer.,"Beethoven, famous, classical composer",keywords_extraction
+Use the Input and generate the suitable keywords,Tacos are a traditional dish from Mexico.,"Tacos, traditional dish, Mexico",keywords_extraction
+Use the Input and generate the suitable keywords,Basketball was invented by James Naismith.,"Basketball, invented, James Naismith",keywords_extraction
+Use the Input and generate the suitable keywords,Mount Kilimanjaro is in Tanzania.,"Mount Kilimanjaro, Tanzania",keywords_extraction
+Use the Input and generate the suitable keywords,The Sphinx is a historic monument in Egypt.,"Sphinx, historic monument, Egypt",keywords_extraction
+Use the Input and generate the suitable keywords,Soccer is known as football outside the USA.,"Soccer, football, outside USA",keywords_extraction
+Use the Input and generate the suitable keywords,The Louvre Museum is in Paris.,"Louvre Museum, Paris",keywords_extraction
+Use the Input and group by similarity,"Rose, Sunflower, Oak, Pine, Daisy, Maple, Tulip, Cedar","[Rose, Sunflower, Daisy, Tulip], [Oak, Pine, Maple, Cedar]",group_by_similarity
+Use the Input and group by similarity,"Python, Java, Peach, C++, Apple, Ruby, Pear, JavaScript","[Python, Java, C++, Ruby, JavaScript], [Peach, Apple, Pear]",group_by_similarity
+Use the Input and group by similarity,"Saturn, Venus, Mars, Hammer, Jupiter, Nail, Mercury, Wrench","[Saturn, Venus, Mars, Jupiter, Mercury], [Hammer, Nail, Wrench]",group_by_similarity
+Use the Input and group by similarity,"Guitar, Violin, Piano, Tiger, Flute, Lion, Trumpet, Cheetah","[Guitar, Violin, Piano, Flute, Trumpet], [Tiger, Lion, Cheetah]",group_by_similarity
+Use the Input and group by similarity,"Orange, Strawberry, Carrot, Blueberry, Cucumber, Raspberry, Lettuce, Kiwi","[Orange, Strawberry, Blueberry, Raspberry, Kiwi], [Carrot, Cucumber, Lettuce]",group_by_similarity
+Use the Input and group by similarity,"Fish, Bird, Whale, Crocodile, Parrot, Dolphin, Sparrow, Alligator","[Fish, Whale, Dolphin], [Bird, Parrot, Sparrow], [Crocodile, Alligator]",group_by_similarity
+Use the Input and group by similarity,"Shirt, Pants, Shoes, Telescope, Hat, Socks, Microscope, Belt","[Shirt, Pants, Shoes, Hat, Socks, Belt], [Telescope, Microscope]",group_by_similarity
+Use the Input and group by similarity,"Cake, Bread, Muffin, Chair, Pie, Table, Donut, Couch","[Cake, Bread, Muffin, Pie, Donut], [Chair, Table, Couch]",group_by_similarity
+Use the Input and group by similarity,"Snow, Rain, Wind, Television, Thunder, Radio, Lightning, Broadcast","[Snow, Rain, Wind, Thunder, Lightning], [Television, Radio, Broadcast]",group_by_similarity
+Use the Input and group by similarity,"Cat, Dog, Gold, Silver, Horse, Cow, Platinum, Bronze","[Cat, Dog, Horse, Cow], [Gold, Silver, Platinum, Bronze]",group_by_similarity
