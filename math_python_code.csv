@@ -1,0 +1,248 @@
+Question,Python Code
+What is the sum of 9 and 7?,"a = 9
+b = 7
+result = a + b
+print(result)"
+What is the sum of 6 and 3?,"a = 6
+b = 3
+result = a + b
+print(result)"
+What is the sum of 1 and 6?,"a = 1
+b = 6
+result = a + b
+print(result)"
+What is the sum of 9 and 3?,"a = 9
+b = 3
+result = a + b
+print(result)"
+What is the sum of 1 and 4?,"a = 1
+b = 4
+result = a + b
+print(result)"
+Solve the quadratic equation: 6x^2 + 6x + 10 = 0,"from sympy import symbols, Eq, solve
+a, b, c = 6, 6, 10
+x = symbols('x')
+equation = Eq(a*x**2 + b*x + c, 0)
+solutions = solve(equation, x)
+print(solutions)"
+Solve the quadratic equation: 2x^2 + 3x + 4 = 0,"from sympy import symbols, Eq, solve
+a, b, c = 2, 3, 4
+x = symbols('x')
+equation = Eq(a*x**2 + b*x + c, 0)
+solutions = solve(equation, x)
+print(solutions)"
+Solve the quadratic equation: 3x^2 + 8x + 4 = 0,"from sympy import symbols, Eq, solve
+a, b, c = 3, 8, 4
+x = symbols('x')
+equation = Eq(a*x**2 + b*x + c, 0)
+solutions = solve(equation, x)
+print(solutions)"
+Solve the quadratic equation: 10x^2 + 5x + 2 = 0,"from sympy import symbols, Eq, solve
+a, b, c = 10, 5, 2
+x = symbols('x')
+equation = Eq(a*x**2 + b*x + c, 0)
+solutions = solve(equation, x)
+print(solutions)"
+Solve the quadratic equation: 7x^2 + 2x + 1 = 0,"from sympy import symbols, Eq, solve
+a, b, c = 7, 2, 1
+x = symbols('x')
+equation = Eq(a*x**2 + b*x + c, 0)
+solutions = solve(equation, x)
+print(solutions)"
+Find the area of a circle with radius 6,"import math
+r = 6
+area = math.pi * r**2
+print(area)"
+Find the area of a square with side 6,"s = 6
+area = s**2
+print(area)"
+Find sin(30°),"import math
+angle_in_degrees = 30
+angle_in_radians = math.radians(angle_in_degrees)
+result = math.sin(angle_in_radians)
+print(result)"
+Find sin(45°),"import math
+angle_in_degrees = 45
+angle_in_radians = math.radians(angle_in_degrees)
+result = math.sin(angle_in_radians)
+print(result)"
+Find sin(60°),"import math
+angle_in_degrees = 60
+angle_in_radians = math.radians(angle_in_degrees)
+result = math.sin(angle_in_radians)
+print(result)"
+Find sin(90°),"import math
+angle_in_degrees = 90
+angle_in_radians = math.radians(angle_in_degrees)
+result = math.sin(angle_in_radians)
+print(result)"
+What is the probability of choosing one out of 3 items in a set of 10 items?,"a = 3
+b = 10
+probability = a / b
+print(probability)"
+What is the probability of choosing one out of 2 items in a set of 6 items?,"a = 2
+b = 6
+probability = a / b
+print(probability)"
+What is the probability of choosing one out of 3 items in a set of 9 items?,"a = 3
+b = 9
+probability = a / b
+print(probability)"
+What is the probability of choosing one out of 4 items in a set of 10 items?,"a = 4
+b = 10
+probability = a / b
+print(probability)"
+What is the probability of choosing one out of 3 items in a set of 8 items?,"a = 3
+b = 8
+probability = a / b
+print(probability)"
+Find the derivative of f(x) = x**2,"import sympy as sp
+x = sp.symbols('x')
+expression = x**2
+derivative = sp.diff(expression, x)
+print(derivative)"
+Find the derivative of f(x) = 2*x,"import sympy as sp
+x = sp.symbols('x')
+expression = 2*x
+derivative = sp.diff(expression, x)
+print(derivative)"
+Find the derivative of f(x) = x**3 + x,"import sympy as sp
+x = sp.symbols('x')
+expression = x**3 + x
+derivative = sp.diff(expression, x)
+print(derivative)"
+Find the derivative of f(x) = 3*x**2 + 2*x,"import sympy as sp
+x = sp.symbols('x')
+expression = 3*x**2 + 2*x
+derivative = sp.diff(expression, x)
+print(derivative)"
+Find the derivative of f(x) = 4*x**3 + 3*x**2,"import sympy as sp
+x = sp.symbols('x')
+expression = 4*x**3 + 3*x**2
+derivative = sp.diff(expression, x)
+print(derivative)"
+"Multiply matrices:
+[[3 8]
+ [7 5]]
+and
+[[6 9]
+ [5 8]]","import numpy as np
+A = np.array([[3, 8], [7, 5]])
+B = np.array([[6, 9], [5, 8]])
+result = np.dot(A, B)
+print(result)"
+"Find the eigenvalues and eigenvectors of matrix:
+[[8 4 8]
+ [7 7 3]
+ [1 1 3]]","import numpy as np
+C = np.array([[8, 4, 8], [7, 7, 3], [1, 1, 3]])
+eigenvalues, eigenvectors = np.linalg.eig(C)
+print(eigenvalues)
+print(eigenvectors)"
+Expand the algebraic expression: (x + 1) * (x - 2),"import sympy as sp
+x = sp.symbols('x')
+expr = (x + 1) * (x - 2)
+expanded_expr = sp.expand(expr)
+print(expanded_expr)"
+Integrate the expression: x**2 + 3*x + 2 with respect to x,"import sympy as sp
+x = sp.symbols('x')
+expr = x**2 + 3*x + 2
+integral_expr = sp.integrate(expr, x)
+print(integral_expr)"
+Generate 5 random values from a normal distribution with mean 0 and standard deviation 0.1,"from scipy.stats import norm
+mean, std_dev = 0, 0.1
+random_values = norm.rvs(mean, std_dev, size=5)
+print(random_values)"
+Generate 5 random values from a normal distribution with mean 0 and standard deviation 0.1,"from scipy.stats import norm
+mean_val = 0
+std_dev = 0.1
+random_values = norm.rvs(mean_val, std_dev, size=5)
+print(random_values)"
+"Solve the differential equation: Eq(Derivative(f(x), x), x)","import sympy as sp
+x, f = sp.symbols('x f')
+diff_eq = sp.Eq(sp.Derivative(f(x), x), x)
+solution = sp.dsolve(diff_eq)
+print(solution)"
+Find the Fourier transform of a sine wave,"import numpy as np
+sin_wave = np.sin(np.linspace(0, 2 * np.pi, 100))
+transformed = np.fft.fft(sin_wave)
+frequencies = np.fft.fftfreq(len(sin_wave))
+print(transformed, frequencies)"
+Find the minimum value of the function: x**2 + 4*x + 4,"from scipy.optimize import minimize
+def func(x):
+ return x**2 + 4*x + 4
+result = minimize(func, 0)
+print(result.x, result.fun)"
+Interpolate the given data points and find the value at x=2.5,"import numpy as np
+from scipy.interpolate import interp1d
+x_vals = [0, 1, 2, 3, 4]
+y_vals = [0, 1, 4, 9, 16]
+f = interp1d(x_vals, y_vals, kind='linear')
+value_at_2_5 = f(2.5)
+print(value_at_2_5)"
+"Solve the differential equation: Eq(Derivative(f(x), x), x)","import sympy as sp
+x, f = sp.symbols('x f')
+diff_eq = sp.Eq(sp.Derivative(f(x), x), x)
+solution = sp.dsolve(diff_eq)
+print(solution)"
+Find the Fourier transform of a sine wave,"import numpy as np
+sin_wave = np.sin(np.linspace(0, 2 * np.pi, 100))
+transformed = np.fft.fft(sin_wave)
+frequencies = np.fft.fftfreq(len(sin_wave))
+print(transformed, frequencies)"
+Find the minimum value of the function: x**2 + 4*x + 4,"from scipy.optimize import minimize
+def func(x):
+ return x**2 + 4*x + 4
+result = minimize(func, 0)
+print(result.x, result.fun)"
+Interpolate the given data points and find the value at x=2.5,"import numpy as np
+from scipy.interpolate import interp1d
+x_vals = [0, 1, 2, 3, 4]
+y_vals = [0, 1, 4, 9, 16]
+f = interp1d(x_vals, y_vals, kind='linear')
+value_at_2_5 = f(2.5)
+print(value_at_2_5)"
+"Solve the differential equation: Eq(Derivative(f(x), x), x)","import sympy as sp
+x, f = sp.symbols('x f')
+diff_eq = sp.Eq(sp.Derivative(f(x), x), x)
+solution = sp.dsolve(diff_eq)
+print(solution)"
+"Solve the differential equation: Eq(f(x) - 2*Derivative(f(x), x) + Derivative(f(x), (x, 2)), sin(x))","import sympy as sp
+x, f = sp.symbols('x f')
+diff_eq = sp.Eq(sp.Derivative(f(x), x, x) - 2*sp.Derivative(f(x), x) + f(x), sp.sin(x))
+solution = sp.dsolve(diff_eq)
+print(solution)"
+Find the Fourier transform of a sine wave,"import numpy as np
+sin_wave = np.sin(np.linspace(0, 2 * np.pi, 100))
+transformed = np.fft.fft(sin_wave)
+frequencies = np.fft.fftfreq(len(sin_wave))
+print(transformed, frequencies)"
+Find the Fourier transform of a cosine wave,"import numpy as np
+cos_wave = np.cos(np.linspace(0, 2 * np.pi, 100))
+transformed = np.fft.fft(cos_wave)
+frequencies = np.fft.fftfreq(len(cos_wave))
+print(transformed, frequencies)"
+Find the minimum value of the function: x**2 + 4*x + 4,"from scipy.optimize import minimize
+def func(x):
+ return x**2 + 4*x + 4
+result = minimize(func, 0)
+print(result.x, result.fun)"
+Find the minimum value of the function: x**3 - 6*x**2 + 11*x - 6,"from scipy.optimize import minimize
+def func(x):
+ return x**3 - 6*x**2 + 11*x - 6
+result = minimize(func, 0)
+print(result.x, result.fun)"
+Interpolate the given data points and find the value at x=2.5,"import numpy as np
+from scipy.interpolate import interp1d
+x_vals = [0, 1, 2, 3, 4]
+y_vals = [0, 1, 4, 9, 16]
+f = interp1d(x_vals, y_vals, kind='linear')
+value_at_2_5 = f(2.5)
+print(value_at_2_5)"
+Interpolate another set of data points and find the value at x=5,"import numpy as np
+from scipy.interpolate import interp1d
+x_vals = [0, 2, 4, 6, 8, 10]
+y_vals = [0, 8, 32, 72, 128, 200]
+f = interp1d(x_vals, y_vals, kind='linear')
+value_at_5 = f(5)
+print(value_at_5)"
